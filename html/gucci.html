@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0,
+	maximum-scale=1.0, minimum-scale=0.3, user-scalable=yes" />
+<title>Gucci</title>
+<!-- css -->
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/gucci.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+<!-- js -->
+<script src="../jquery/jquery-3.5.1.min.js"></script>
+<script src="../js/gucci.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="../js/com.js"></script>
+
+
+</head>
+<body>
+	<script>
+		AOS.init();
+	</script>
+
+	<header>
+		<div class="header__left">
+			<a class="logo" href="#"><img src="../img/gucci/pngegg.png"
+				alt="구찌 로고"></a>
+			<ul>
+				<li><a href="../index.html">Intro</a></li>
+				<li><a href="./valentino.html">Valentino</a></li>
+				<li><a href="./YSL.html">Saint Laurent</a></li>
+				<li><a href="./gucci.html">Gucci</a></li>
+				<li><a href="./burberry.html">Burberry</a></li>
+			</ul>
+		</div>
+		<div class="utils js-utils"></div>
+	</header>
+
+
+
+		<div class="panel">
+
+			<video autoplay loop muted class="video">
+				<source src="../img/gucci/video2.mp4" type="video/mp4">
+			</video>
+			<div class="scroll">
+            	<span></span>
+            	<span></span>
+            	<span></span>
+          </div>
+          <div class="scrollBtn">
+            <button class="mouseBtn" onclick="scrollBtn_click(event)"></button>
+          </div>
+		</div>
+		<div class="panel_2"></div>
+		<div class="panel_3"></div>
+		<div class="panel_4"></div>
+
+		<div class="tab_wrap">
+  			<div class="tab_menu_container">
+			    <button class="tab_menu_btn on" type="button">Female</button>
+			    <button class="tab_menu_btn" type="button">Male</button>
+			</div> <!-- tab_menu_container e -->
+
+			<div class="tab_box_container">
+			    <div class="tab_box on"><!-- Female Test -->
+					<div class="kategorie-wrap">
+						<div class="kategorie-f">
+							
+							<div class="kategorie-sep">
+								<img class="kategorie-f-top" onclick="f_top_click(event)">
+								<img class="kategorie-f-tote"  onclick="f_tote_click(event)">
+								<img class="kategorie-f-shoulder"  onclick="f_shoulder_click(event)"> 
+							</div>
+							<div class="kategorie-sep">
+								<img class="kategorie-f-cross"  onclick="f_cross_click(event)">
+								<img class="kategorie-f-belt"  onclick="f_belt_click(event)">
+								<img class="kategorie-f-mini"  onclick="f_mini_click(event)">
+							</div>
+						</div>
+					</div>
+					<div class="product-menu">
+						<div class="product-female">
+							<div class="female-top">
+								<div class="product-banner">
+									<img class="f-top-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-top-1" >
+									<img class="product-f-top-2">
+									<img class="product-f-top-3">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-top-4">
+									<img class="product-f-top-5">
+									<img class="product-f-top-6">
+								</div>
+							</div>
+							<div class="female-tote">
+								<div class="product-banner">
+									<img class="f-tote-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-tote-1">
+									<img class="product-f-tote-2">
+									<img class="product-f-tote-3">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-tote-4">
+									<img class="product-f-tote-5">
+									<img class="product-f-tote-6">
+								</div>
+							</div>
+							<div class="female-shoulder">
+								<div class="product-banner">
+									<img class="f-shoulder-banner_img">
+								</div>
+								<div class="product-sep" >
+									<img class="product-f-shoulder-1"> 
+									<img class="product-f-shoulder-2"> 
+									<img class="product-f-shoulder-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-f-shoulder-4"> 
+									<img class="product-f-shoulder-5"> 
+									<img class="product-f-shoulder-6">
+								</div>
+							</div>
+							<div class="female-cross">
+								<div class="product-banner">
+									<img class="f-cross-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-cross-1"> 
+									<img class="product-f-cross-2"> 
+									<img class="product-f-cross-3">
+								</div>
+								<div class="product-sep" >
+									<img class="product-f-cross-4"> 
+									<img class="product-f-cross-5"> 
+									<img class="product-f-cross-6">
+								</div>
+							</div>
+							<div class="female-back">
+								<div class="product-banner">
+									<img class="f-back-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-back-1"> 
+									<img class="product-f-back-2"> 
+									<img class="product-f-back-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-f-back-4"> 
+									<img class="product-f-back-5"> 
+									<img class="product-f-back-6">
+								</div>
+							</div>
+							<div class="female-mini">
+								<div class="product-banner">
+									<img class="f-mini-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-f-mini-1"> 
+									<img class="product-f-mini-2"> 
+									<img class="product-f-mini-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-f-mini-4"> 
+									<img class="product-f-mini-5"> 
+									<img class="product-f-mini-6">
+								</div>
+							</div>
+						</div>
+			    	</div>
+				</div>
+
+			    <div class="tab_box"><!-- Male Test -->
+					<div class="kategorie-wrap">
+						<div class="kategorie-m">
+							<div class="kategorie-sep">
+								<img class="kategorie-m-cross"  onclick="m_cross_click(event)">
+								<img class="kategorie-m-back"  onclick="m_back_click(event)">
+							</div>	
+							<div class="kategorie-sep">
+								<img class="kategorie-m-belt"  onclick="m_belt_click(event)">
+								<img class="kategorie-m-portfolio"  onclick="m_portfolio_click(event)">
+							</div>	
+						</div>
+					</div>
+					<div class="product-menu">
+						<div class="product-male">
+							<div class="male-cross">
+								<div class="product-banner">
+									<img class="m-cross-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-m-cross-1"> 
+									<img class="product-m-cross-2"> 
+									<img class="product-m-cross-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-m-cross-4"> 
+									<img class="product-m-cross-5"> 
+									<img class="product-m-cross-6">
+								</div>
+							</div>
+							<div class="male-back">
+								<div class="product-banner">
+									<img class="m-back-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-m-back-1"> 
+									<img class="product-m-back-2"> 
+									<img class="product-m-back-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-m-back-4"> 
+									<img class="product-m-back-5"> 
+									<img class="product-m-back-6">
+								</div>
+							</div>
+							<div class="male-belt">
+								<div class="product-banner">
+									<img class="m-belt-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-m-belt-1"> 
+									<img class="product-m-belt-2"> 
+									<img class="product-m-belt-3"> 
+								</div>
+								<div class="product-sep">
+									<img class="product-m-belt-4"> 
+									<img class="product-m-belt-5"> 
+									<img class="product-m-belt-6">
+								</div>
+							</div>
+							<div class="male-portfolio">
+								<div class="product-banner">
+									<img class="m-portfolio-banner_img">
+								</div>
+								<div class="product-sep">
+									<img class="product-m-portfolio-1">
+									<img class="product-m-portfolio-2">
+									<img class="product-m-portfolio-3">
+								</div>
+								<div class="product-sep">
+									<img class="product-m-portfolio-4">
+									<img class="product-m-portfolio-5">
+									<img class="product-m-portfolio-6">
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			    </div>
+  			</div> <!-- tab_box_container e -->
+		</div> <!-- tab_wrap e -->
+
+				<!--  모바일 메뉴 -->
+		<div class="mobile_menu">
+	  <header id="header">
+	    <nav class="menu-navigation">
+	      <a href="#" class="menu-icon-toggle"><span></span></a>
+	      <i class="menu-background top"></i>
+	      <i class="menu-background middle"></i>
+	      <i class="menu-background bottom"></i>
+	      <ul class="menu">
+	        <li><a href="../index.html">Intro</a></li>
+			<li><a href="./valentino.html">Valentino</a></li>
+			<li><a href="./YSL.html">Saint Laurent</a></li>
+			<li><a href="./gucci.html">Gucci</a></li>
+			<li><a href="./burberry.html">Burberry</a></li>
+	      </ul>
+	    </nav>
+	  </header>
+	</div>
+	<a id="MOVE_TOP_BTN" href="#"><i class="fas fa-angle-up"></i></a>
+</body>
+</html>
